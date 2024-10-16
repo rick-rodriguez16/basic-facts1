@@ -29,12 +29,13 @@ function App() {
       console.log("Incorrect");
       setMark("𐄂")
     }
-    selectFact();
+    
     setResponse("");
     
     setTimeout(() => {
+      selectFact();
       setMark("");
-    }, "500");
+    }, "700");
     
   }
 
